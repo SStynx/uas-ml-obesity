@@ -1,0 +1,7 @@
+Model,Strategy,Accuracy,Macro-F1
+K-Nearest Neighbors (KNN),Baseline,0.835,0.816
+Gaussian Naive Bayes,Baseline,0.500,0.425
+Support Vector Machine (SVM),Baseline,0.928,0.925
+K-Nearest Neighbors (KNN),Hyperparameter Tuning,0.880,0.873
+Gaussian Naive Bayes,Hyperparameter Tuning,0.636,0.601
+Support Vector Machine (SVM),Hyperparameter Tuning,0.971,0.970

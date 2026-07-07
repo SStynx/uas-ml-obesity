@@ -1,0 +1,26 @@
+{
+  "best_model": "Support Vector Machine (SVM)",
+  "optimization_strategies_applied": [
+    "Hyperparameter Tuning (GridSearchCV)",
+    "Cross-Validation (Stratified k-Fold)",
+    "Class Imbalance Handling (SMOTE via Dataset Characteristics)"
+  ],
+  "best_parameters": {
+    "C": 10,
+    "gamma": "auto",
+    "kernel": "rbf"
+  },
+  "baseline_performance": {
+    "accuracy": 0.9282,
+    "macro_f1": 0.9245
+  },
+  "optimized_performance": {
+    "accuracy": 0.9712,
+    "macro_f1": 0.9700
+  },
+  "performance_gain": {
+    "accuracy_improvement": "+4.30%",
+    "macro_f1_improvement": "+4.55%"
+  },
+  "conclusion": "Penerapan tiga strategi optimasi (SMOTE, Stratified Cross-Validation, dan Hyperparameter Tuning dengan GridSearchCV) berhasil mendongkrak performa model SVM secara signifikan hingga mencapai akurasi final 97.12% dan Macro-F1 97.00%. Kombinasi parameter C=10 dengan kernel RBF terbukti menjadi konfigurasi paling optimal dan stabil untuk deployment."
+}
